@@ -10,7 +10,7 @@
   border-radius: 15px;
   background: white;
   text-align: center;
-  margin-left: 750px;
+  margin-left: 275px;
   margin-top: 25px;
 }
 
@@ -20,13 +20,14 @@ h1 {
 
 h2 {
   font-size: 95px;
-  margin: 95px;
+  margin-top: 95px;
   font-weight: bold;
   color: black;
 }
 
 #simbolo-carta-abajo {
   margin-right: 15px;
+  margin-top: 105px;
   transform: rotate(0.5turn);
 }
 .simboloCarta {

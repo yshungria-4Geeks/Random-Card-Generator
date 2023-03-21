@@ -57,8 +57,11 @@ window.onload = function() {
         iconos[indiceValorIcono]
       )}"> ${iconos[indiceValorIcono]}</div>
 
-      <div class="numero-carta">
-        <h2 >${valores[indiceValorAleatorio]}</h2>
+      <div id="numero-carta" > 
+        <h2 class="simboloCarta ${colorAleatorio(
+          iconos[indiceValorIcono]
+        )}" style="text-align: center">
+        ${valores[indiceValorAleatorio]}</h2>
       </div>
 
       <div id="simbolo-carta-abajo" class="simboloCarta ${colorAleatorio(
