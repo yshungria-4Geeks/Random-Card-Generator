@@ -1,1 +1,53 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#carta {
+  height: 500px;
+  width: 370px;
+  border-radius: 15px;
+  background: white;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 95px;
+  margin: 95px;
+  font-weight: bold;
+  color: black;
+}
+
+#simbolo-carta-abajo {
+  margin-right: 15px;
+  transform: rotate(0.5turn);
+}
+.simboloCarta {
+  font-size: 65px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.simboloCarta.black {
+  color: black;
+}
+
+.simboloCarta.red {
+  color: red;
+}
+
+.numero-carta {
+  font-size: 95px;
+}
+
+footer {
+  font-size: 25px;
+  text-align: center;
+}
